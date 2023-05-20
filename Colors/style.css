@@ -1,0 +1,58 @@
+html{
+    background:#7286A0;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    width: auto;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    font: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+}
+li{
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.Red{
+    color: white;
+    padding: 200px;
+    background:url(Red.jpg);
+    border-radius: 40%;
+    margin: 0 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Blue{
+    color: white;
+    padding: 200px;
+    background:url(Green.jpg);
+    border-radius: 40%;
+    margin: 0 5px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Green{
+    color: white;
+    padding: 200px;
+    background:url(Blue.jpg);
+    border-radius: 40%;
+    margin: 0 5px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
